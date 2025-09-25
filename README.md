@@ -29,8 +29,9 @@ Fully responsive, cleanly structured, and modular with reusable components.
 
 ## 📷 Screenshots
 
-(./screenshots/Screenshot from 2025-09-25 18-22-54.png)
-(./screenshots/Screenshot from 2025-09-25 18-23-36.png)
+<img src="./screenshots/Screenshot from 2025-09-25 18-22-54.png" alt="Dashboard Analytics screenshot">
+<img src="./screenshots/Screenshot from 2025-09-25 18-23-36.png" alt="Dashboard Analytics screenshot">
+
 
 ## 📂 Project Structure
 
