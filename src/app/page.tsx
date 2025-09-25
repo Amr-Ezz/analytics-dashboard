@@ -11,28 +11,31 @@ import DashboardLayout from "./components/layout/DashBoard";
 
 export default function DashboardPage() {
   return (
-   <DashboardLayout>
-      <div className="space-y-6">
-        {/* Top: Performance Stats */}
-        <PerformanceStats />
+    <DashboardLayout>
+      <div className="space-y-12 scroll-smooth">
+        
+        {/* Overview */}
+        <section id="overview">
+          <PerformanceStats />
+        </section>
 
-        {/* Revenue & Traffic Sources side by side on md+ */}
-        <div className="grid gap-6 md:grid-cols-2">
+        {/* Analytics */}
+        <section id="analytics" className="grid gap-6 md:grid-cols-2">
           <RevenueChart />
           <TrafficSources />
-        </div>
+        </section>
 
-        {/* Performance Overview & Tasks side by side on md+ */}
-        <div className="grid gap-6 md:grid-cols-2">
+        {/* Tasks */}
+        <section id="tasks" className="grid gap-6 md:grid-cols-2">
           <PerformanceOverview />
           <Tasks />
-        </div>
+        </section>
 
-        {/* Notifications & Recent Orders side by side on md+ */}
-        <div className="grid gap-6 md:grid-cols-2">
+        {/* Recent Orders */}
+        <section id="recentorders" className="grid gap-6 md:grid-cols-2">
           <Notifications />
           <RecentOrders />
-        </div>
+        </section>
       </div>
     </DashboardLayout>
   );

@@ -21,16 +21,14 @@ export default function Navbar() {
         {/* Notification Bell */}
         <button className="relative p-2 rounded-full hover:bg-gray-700 transition">
           <Bell className="w-6 h-6 text-gray-300" />
-          {/* Optional: notification dot */}
           <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
         </button>
 
-        {/* User Avatar */}
         <div className="flex items-center gap-2 cursor-pointer hover:opacity-90 transition">
           <img
             src="/user-avatar.png"
             alt="User Avatar"
-            className="w-10 h-10 rounded-full object-cover border-2 border-purple-600"
+            className="w-full h-full rounded-full object-cover object-center border-2 border-purple-600 p-1"
           />
           <span className="hidden md:block text-sm font-medium text-white">
             John Doe
