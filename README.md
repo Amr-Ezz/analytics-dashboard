@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 Analytics Dashboard
 
-## Getting Started
+A modern **Analytics Dashboard** built with **Next.js 15, TailwindCSS, and Chart.js**.  
+Fully responsive, cleanly structured, and modular with reusable components.
 
-First, run the development server:
+🔗 **Live Demo**: [Analytics Dashboard](https://analytics-dashboard-tan-one.vercel.app/)  
+💻 **Repo**: [GitHub Repo](https://github.com/Amr-Ezz/analytics-dashboard)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📱 **Responsive Layout** – works across desktop, tablet, and mobile
+- 🧩 **Reusable Components** – Sidebar, Navbar, Cards, Charts, and Tables
+- 🎨 **Styled with TailwindCSS** – utility-first, clean design
+- 📊 **Interactive Charts** – powered by Chart.js (`react-chartjs-2`)
+- ⚡ **Built with Next.js 15** – optimized and scalable
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js 15** (App Router)
+- **TailwindCSS** (for styling)
+- **Chart.js + react-chartjs-2** (for charts)
+- **Lucide Icons** (for icons)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📷 Screenshots
 
-## Deploy on Vercel
+(./Screenshot from 2025-09-25 18-22-54.png)
+(./Screenshot from 2025-09-25 18-23-36.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📂 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+/app
+/dashboard
+page.tsx # Main Dashboard page
+/components
+/layout
+DashboardLayout.tsx
+Navbar.tsx
+Sidebar.tsx
+/dashboard
+PerformanceStats.tsx
+Tasks.tsx
+RevenueChart.tsx
+TrafficSources.tsx
+PerformanceOverview.tsx
+RecentOrders.tsx
+Notifications.tsx
+ChartsGrid.tsx
+LineChart.tsx
+BarChart.tsx
